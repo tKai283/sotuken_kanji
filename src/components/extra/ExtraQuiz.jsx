@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 // ===== 共通UI (パスはプロジェクト構成に合わせて調整してください) =====
 import Timer from "../Timer";
 import Lives from "../Lives";
-import DebugPanel from "../DebugPanel";
+//import DebugPanel from "../DebugPanel";//
 import LoadingScreen from "../LoadingScreen";
 import ConfirmGiveUp from "../ConfirmGiveUp";
 import QuestionCounter from "../QuestionCounter";
@@ -364,8 +364,8 @@ export default function ExtraQuiz({
           onNext={handleNextAfterCorrect}
         />
       )}
-
-      <DebugPanel
+      {/* ★ DebugPanel をコメントアウト */}
+      {/*<DebugPanel
         gameMode="extra"
         questionNumber={questionNumber}
         questionCount={questionCount}
@@ -373,7 +373,7 @@ export default function ExtraQuiz({
         usedCount={usedQuestions.length}
         isChecking={isChecking}
         currentDifficulty={current?.difficulty}
-      />
+      />  */}
 
       <div className="lives-container">
         <Lives lives={lives} />

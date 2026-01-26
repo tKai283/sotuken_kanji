@@ -7,7 +7,7 @@ export const creditPages = [
     content: [
       { role: "💻 プログラム / AIコーディング", name: "Kai" },
       { role: "📂 データ収集 / デザイン構成", name: "YUYA" },
-      { role: "🎬 背景アニメーション / UI設計", name: "和田" },
+      { role: "🎬 背景アニメーション / UI設計", name: "Wada" },
       { role: "📝 全体レイアウト / 規約編集", name: "ARAKI" },
     ],
   },

@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Timer from "./Timer";
 import Lives from "./Lives";
-import DebugPanel from "./DebugPanel";
+//import DebugPanel from "./DebugPanel";//
 import LoadingScreen from "./LoadingScreen";
 import ConfirmGiveUp from "./ConfirmGiveUp";
 import QuestionCounter from "./QuestionCounter";
@@ -532,7 +532,8 @@ export default function Quiz({
         />
       )}
 
-      <DebugPanel
+      {/* ★ DebugPanel をコメントアウト */}
+      {/*<DebugPanel
         gameMode="main"
         questionNumber={questionNumber}
         questionCount={questionCount}
@@ -540,7 +541,7 @@ export default function Quiz({
           questionsRemaining[stage === "BOSS" ? "BOSS" : stage]?.length || 0
         }
         isChecking={isChecking}
-      />
+      />  */}
 
       <div className="lives-container">
         <Lives lives={lives} />

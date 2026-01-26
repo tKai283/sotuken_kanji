@@ -122,13 +122,6 @@ const easyQuestions = [
   {
     level: "easy",
     rank: "1",
-    kanji: "山道",
-    reading: "やまみち",
-    meaning: "山の中や山を登ったり下りたりするためにつくられた道",
-  },
-  {
-    level: "easy",
-    rank: "1",
     kanji: "晴天",
     reading: "せいてん",
     meaning: "雲が少なく、よく晴れた天気",
@@ -137,8 +130,15 @@ const easyQuestions = [
     level: "easy",
     rank: "1",
     kanji: "風車",
-    reading: "かざぐるま",
+    reading: "かざぐるま、ふうしゃ", // ★カンマや読点で区切る
     meaning: "風を受けてくるくる回るようにつくられたおもちゃや装置",
+  },
+  {
+    level: "easy",
+    rank: "1",
+    kanji: "山道",
+    reading: "やまみち、さんどう", // ★こちらも同様に
+    meaning: "山の中や山を登ったり下りたりするためにつくられた道",
   },
   {
     level: "easy",
